@@ -41,6 +41,4 @@ RUN apt-get update -y \
         libcurl4-openssl-dev libcurl4 \
         libyaml-0-2 libyaml-dev \
         libmbedtls-dev libmbedtls14 \
-        lcov gcovr \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/* \
+        lcov gcovr
